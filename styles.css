@@ -8,15 +8,15 @@ p {
   transform-origin: 100%;
   transform: rotate(360deg);
   transition: all 0.05s;
-  transform: translateY(-12px);
+  transform: translateY(-11px);
 
 }
 
 
 .hand {
     width: 50%;
-    height: 0px;
-    background: white;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,.5));;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
